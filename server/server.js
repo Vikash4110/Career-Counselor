@@ -103,7 +103,7 @@ const PORT = process.env.PORT || 8000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://eduationforall.vercel.app', 'https://time-table-gen.vercel.app'],
+  origin: ['http://localhost:5173', 'https://career-counselor-rosy.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
